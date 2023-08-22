@@ -1,0 +1,21 @@
+name: Make docs
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+jobs:
+  make_docs:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Get Doxygen
+        run: |
+          sudo apt-get update
+          sudo apt-get doxygen
+      - name: Generate docs
+        run: doxygen
+
+  
+    
