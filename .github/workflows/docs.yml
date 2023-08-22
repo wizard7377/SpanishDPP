@@ -26,9 +26,8 @@ jobs:
           mkdir build
           doxygen
       - name: Upload pages to build
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-pages-artifact@v2.0.0
         with:
-          name: pages
           path: build/html 
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v1.2.9
