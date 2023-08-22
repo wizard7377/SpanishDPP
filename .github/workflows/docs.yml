@@ -7,9 +7,6 @@ on:
   pull_request:
     branches:
       - dev
-permissions:
-  read-all
-  write-all
 jobs:
   make_docs:
     runs-on: ubuntu-20.04
