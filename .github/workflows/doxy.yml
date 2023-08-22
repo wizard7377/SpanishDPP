@@ -1,9 +1,0 @@
-name: Make docs
-on: 
-  workflow_dispatch:
-permissions: read-all|write-all
-jobs:
-  make_docs:
-    uses: mattnotmitt/doxygen-action@1.9.5
-    
-
