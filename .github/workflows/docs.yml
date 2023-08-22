@@ -1,4 +1,5 @@
 name: Make docs
+permissions: read-all|write-all
 on: 
   workflow_dispatch:
   push:
@@ -10,7 +11,6 @@ on:
 
 jobs:
   make_docs:
-    permissions: read-all|write-all
     runs-on: ubuntu-20.04
     steps:
       - name: Check out repository code
