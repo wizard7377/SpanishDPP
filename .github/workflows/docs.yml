@@ -10,6 +10,7 @@ on:
 
 permissions:
   id-token: write
+  pages: write
 jobs:
   make_docs:
     runs-on: ubuntu-20.04
