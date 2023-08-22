@@ -13,7 +13,7 @@ jobs:
       - name: Get Doxygen
         run: |
           sudo apt-get update
-          sudo apt-get doxygen
+          sudo apt-get install doxygen
       - name: Generate docs
         run: doxygen
 
