@@ -17,6 +17,7 @@ jobs:
       - name: Generate docs
         run: |
           mkdir build
+          ls
           doxygen
 
   
