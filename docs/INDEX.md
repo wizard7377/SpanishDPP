@@ -18,7 +18,7 @@ También, D++ hace en Mac
 
 ### Windows
 
-A pesar de D++ apoya Windows con Visual Studio, es recomendable que tu usas WSL (Windows Subsystem for Linux) para tu proyectos.
+D++ apoya Windows con Visual Studio, y es posible que tu usas WSL (Windows Subsystem for Linux) para tu proyectos.
 
 ## Enlaces útiles
 
