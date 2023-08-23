@@ -1,0 +1,8 @@
+{
+    "version": "0.2",
+    "language": "es-ES",
+    "words": [
+        "Studio", //Visual Studio
+        "Subsystem" //Windows Subsystem for Linux
+    ]
+}
