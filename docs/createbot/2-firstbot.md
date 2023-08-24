@@ -33,6 +33,7 @@ bot.on_slashcommand([](const dpp::slashcommand_t& event) {
 ~~~
 7. Pon el código en tu lambda. `command` es un atributo de `event` de tipo `dpp::interaction`, que mas o menos representa los datos del evento. Aquí, nosotros usamos su método `get_command_name()`, que obtiene el nombre de la comandos, en este caso, nosotros chequeo si la entrada usuario fuera `/ping`, y en caso de que es `/ping`, usarías el método `reply` de `event`, que responde con un la cadena de texto al mensaje.
 \note Discord va a devolver un error a tu usuario si no respondieras **exacto** un tiempo, no mas o menos. 
+
 ~~~{.cpp}
 bot.on_slashcommand([](const dpp::slashcommand_t& event) {
     if (event.command.get_command_name() == "aprendiendo") {
