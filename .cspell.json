@@ -2,6 +2,10 @@
     "version": "0.2",
     "language": "en, es-ES",
     "words": [
-        "subpage" //Doxygen tag
+        "AUTENTIFICADOR",
+        "cout",
+        "linux",
+        "slashcommand",
+        "subpage"
     ]
 }
