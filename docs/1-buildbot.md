@@ -1,5 +1,5 @@
-# Creando un bote con D++
+\page buildbot Compilando un bote
 
-Esto es el pagina principal del creación de Discord botes en D++, tu necesitas seguir una guía apropiada de tu sistema 
+Esto es la guía para compilas tu proyecto con D++. Tu necesitas seguir una guía apropiada de tu sistema. 
 
 * \subpage linux-cmake-1 "CMake y Linux"

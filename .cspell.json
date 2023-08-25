@@ -3,8 +3,12 @@
     "language": "en, es-ES",
     "words": [
         "AUTENTIFICADOR",
+        "buildbot",
         "cout",
+        "createbot",
+        "Doxygen",
         "linux",
+        "pacman",
         "slashcommand",
         "subpage"
     ]
