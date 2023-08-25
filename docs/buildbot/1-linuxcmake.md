@@ -1,6 +1,6 @@
 \page linux-cmake-1 CMake en Linux 
 
-Probablemente la forma mas fácil para compilando un proyecto con D++ sea usar `cmake` en Linux con el código fuente, porque no necesita configuración complejo, y es util incluso botes en producción. Antes de empezamos, tu debes asegurar `cmake` es instala, y tu puedes hacerlo con `cmake --version`. En caso de que no es instala, tu necesitas sigue un guía apropiada de tu distribución de linux, o ve si tu distribución es cubre en el final de la guía. En este guía, nosotros compilaremos un proyecto con código en `src/main.cpp` (guías por eso hay [hoy](\ref createbot)).
+Probablemente la forma mas fácil para compilando un proyecto con D++ sea usar `cmake` en Linux con el código fuente, porque no necesita configuración complejo, y es util incluso bots en producción. Antes de empezamos, tu debes asegurar `cmake` es instala, y tu puedes hacerlo con `cmake --version`. En caso de que no es instala, tu necesitas sigue un guía apropiada de tu distribución de linux, o ve si tu distribución es cubre en el final de la guía. En este guía, nosotros compilaremos un proyecto con código en `src/main.cpp` (guías por eso hay [hoy](\ref createbot)).
 
 1. Tu necesitas el código fuente de D++. Primero, tu debes poner librerías en un directorio separado, `libs`, con `mkdir libs && cd libs`. Después, tu puedes copiar el código fuente de D++ con `git clone https://github.com/brainboxdotcc/DPP.git`. Final (en este etapa) tu devuelve a directorio original con `cd ..`, hasta ahora, tu directorio debe mira similar a:
 ```

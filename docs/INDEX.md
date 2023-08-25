@@ -1,4 +1,4 @@
-# D++, un módulo C++ del Discord API para botes
+# D++, un módulo C++ del Discord API para bots
 
 ## Un explanación de D++
 

@@ -24,7 +24,7 @@ En este momento, tu bote es en ninguno servidos, asi que no puede hacer algo. A 
 2. chiquea "Bot" en menú de botones
 \image html create_app_select_perm_1.png
 3. Se desplazas abajo y chiquea "Administrator"
-\note Por este tutorial, nosotros dejamos permiso administrativo para tu bote. Pero, por botes real, tu debes dejar un bote solo permisos necesarios.
+\note Por este tutorial, nosotros dejamos permiso administrativo para tu bote. Pero, por bots real, tu debes dejar un bote solo permisos necesarios.
 4. chiquea "copy", y abres el enlace 
 \image html create_app_select_perm_2.png
 5. Seleccionas el servidor tu quires el bote unirse, y chiquea "Continue"
