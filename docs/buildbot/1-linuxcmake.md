@@ -1,6 +1,30 @@
 \page linux-cmake-1 CMake en Linux 
 
-Probablemente la forma mas fácil para compilando un proyecto con D++ sea usar `cmake` en Linux con el código fuente, porque no necesita configuración complejo, y es util incluso bots en producción. Antes de empezamos, tu debes asegurar `cmake` es instala, y tu puedes hacerlo con `cmake --version`. En caso de que no es instala, tu necesitas sigue un guía apropiada de tu distribución de linux, o ve si tu distribución es cubre en el final de la guía. En este guía, nosotros compilaremos un proyecto con código en `src/main.cpp` (guías por eso hay [hoy](\ref createbot)).
+Probablemente la forma mas fácil para compilando un proyecto con D++ sea usar `cmake` en Linux con el código fuente, porque no necesita configuración complejo, y es util incluso bots en producción. Antes de empezamos, tu debes asegurar `cmake` es instala, y tu puedes hacerlo con `cmake --version`. En caso de que no es instala, tu necesitas sigue un guía apropiada de tu distribución de linux, o ve si tu distribución es cubre en el comienzo de la guía. En este guía, nosotros compilaremos un proyecto con código en `src/main.cpp` (guías por eso hay [hoy](\ref createbot)).
+
+## Información de distribuciones.
+
+\note Si tu tiene `cmake` instalar en tu sistema **tu puedes faltas a hoy y voy a Obteniendo D++**
+
+Si tu sistema no tiene `cmake`, ve por tu sistema debajo.
+
+### Ubuntu y Debian
+```
+sudo apt update
+sudo apt install cmake
+```
+### Fedora, CentOS, y RedHat 
+```
+sudo dnf install cmake
+```
+### OpenSUSE
+```
+sudo snap install cmake --classic
+```
+### Arch (y Manjaro)
+```
+sudo pacman -S cmake
+```
 
 ## Obteniendo D++
 
@@ -92,24 +116,3 @@ cmake ..
 make
 ```
 
-## Información de distribuciones.
-
-Si tu sistema no tiene `cmake`, ve por tu sistema debajo.
-
-### Ubuntu y Debian
-```
-sudo apt update
-sudo apt install cmake
-```
-### Fedora, CentOS, y RedHat 
-```
-sudo dnf install cmake
-```
-### OpenSUSE
-```
-sudo snap install cmake --classic
-```
-### Arch (y Manjaro)
-```
-sudo pacman -S cmake
-```
