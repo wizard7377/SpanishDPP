@@ -4,7 +4,7 @@
 
 D++ es un módulo sencillo y fácil para Discord que incorpora C++ moderno. El cubre todas características del Discord API. Esto es la documentación no oficial de D++, pero esto afilado de D++.
 
-D++ es un proyecto código abierto, y muchos desarrolladores de D++ usar le para sus proyectos. Si tu quiries programar D++, tu debes ver el [Github](https://github.com/brainboxdotcc/DPP.git), o tu puedes se unirás al [Discord servidor](https://discord.gg/dpp), también, tu debes se unirás al servidor cuando tu tendrás problemas con D++ y no puedes encontrar un solución. 
+D++ es un proyecto código abierto, y muchos desarrolladores de D++ usar le para sus proyectos. Si tu querría programar D++, tu debes ver el [Github](https://github.com/brainboxdotcc/DPP.git), o tu puedes se unirás al [Discord servidor](https://discord.gg/dpp), también, tu debes se unirás al servidor cuando tu tendrás problemas con D++ y no puedes encontrar un solución. 
 
 ## Las sistemas operativos apoyados
 
@@ -18,7 +18,7 @@ También, D++ hace en Mac
 
 ### Windows
 
-A pesar de D++ apoya Windows con Visual Studio, es recomendable que tu usas WSL (Windows Subsystem for Linux) para tu proyectos.
+D++ apoya Windows con Visual Studio, y es posible que tu usas WSL (Windows Subsystem for Linux) para tu proyectos.
 
 ## Enlaces útiles
 

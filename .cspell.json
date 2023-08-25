@@ -1,8 +1,15 @@
 {
     "version": "0.2",
-    "language": "es-ES",
+    "language": "en, es-ES",
     "words": [
-        "Studio", //Visual Studio
-        "Subsystem" //Windows Subsystem for Linux
+        "AUTENTIFICADOR",
+        "buildbot",
+        "cout",
+        "createbot",
+        "Doxygen",
+        "linux",
+        "pacman",
+        "slashcommand",
+        "subpage"
     ]
 }
