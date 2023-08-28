@@ -4,3 +4,4 @@ Esto es el pagina principal del creación de Discord bots en D++, tu necesitas s
 
 * \subpage guía-primero "La guía primera"
 * \subpage sencillo-cpp "Tu primero C++ bote"
+* \subpage message-object "Objecto mensaje"
