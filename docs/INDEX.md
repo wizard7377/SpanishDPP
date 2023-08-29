@@ -73,6 +73,6 @@ D++ debe trabajar bien en otras sistemas operativos, y si tu usas D++ en un sist
 * \ref thread-model
 
 ## Recursos para aprendiendo 
-* [C++ for JavaScript Developers](https://pawelgrzybek.com/cpp-for-javascript-developers/)
-* [C++ In Four Hours](https://www.youtube.com/watch?v=vLnPwxZdW4Y&vl=en)
+* [Curso de C++ Básico Gratis](https://codigofacilito.com/cursos/c-plus-plus)
+* [Curso De C++](https://www.programarya.com/Cursos/C++)
 
